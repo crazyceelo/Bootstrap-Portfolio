@@ -4,6 +4,9 @@
 <head>
 	<title>About</title>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -18,28 +21,50 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default" role="navigation">
-	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="index.html">Carlos Perez</a>
-	    </div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+      	<div class="row">
+      		<div class="col-md-4">
+      			<h1 class="name-logo">Carlos Perez</h1>
+  			</div>
 
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	        <li><a href="index.html">About</a></li>
-	        <li><a href="portfolio.html">Portfolio</a></li>
-	        <li><a href="contact.html">Contact</a></li>
-	       </ul>
-   		</div>
-	</nav>
+      		<div class="col-md-4 nav-list">
+	    		<ul class="nav nav-pills">
+	      			<li role="presentation" class="enabled"><a href="index.html">About</a></li>
+	      			<li role="presentation" class="enabled"><a href="portfolio.html">Portfolio</a></li>
+	      			<li role="presentation" class="enabled"><a href="contact.html">Contact</a></li>
+	    		</ul>
+      		</div>
+      	</div>
+    </nav>
+
+    <div class="container main-container">
+    	<div class="row">
+    		<div class="col-md-12">
+    			<h1>
+    				About Me
+    			</h1>
+    		</div>
+    		<div class="col-md-2">
+    			<img src="assets/images/ProfilePicture.JPG" width="150px" height="150px">
+    		</div>
+    		<div class="col-md-5">
+				<p>
+				asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdgfa
+				asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfsadfasdfasdfas
+				</p>
+    		</div>
+
+    		<div class="panel panel-default col-md-4">
+  				<div class="panel-heading">
+    				<h3 class="panel-title">Panel title</h3>
+  				</div>
+
+  				<div class="panel-body">
+    			Panel content
+    			</div>
+  			</div>
+    	</div>
+    </div>
 </body>
-
 </html>
