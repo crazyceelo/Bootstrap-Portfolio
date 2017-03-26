@@ -1,3 +1,7 @@
+body {
+	background-image: url(../images/background.png);
+}
+
 .nav-list {
 	margin-top: 1.5%;
 	margin-left: 15%
@@ -5,6 +9,7 @@
 
 .main-container {
 	margin-top: 15vh;
+
 }
 
 .panel-default {
