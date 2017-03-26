@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Contact</title>
+	<title>About</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -15,33 +16,71 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
+
 <body>
+<!--nav bar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+      	<div class="row">
+      		<div class="col-md-4">
+      			<h1 class="name-logo">Carlos Perez</h1>
+  			</div>
 
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="index.html">Carlos Perez</a>
-	    </div>
+      		<div class="col-md-4 nav-list">
+	    		<ul class="nav nav-pills">
+	      			<li role="presentation" class="enabled"><a href="index.html">About</a></li>
+	      			<li role="presentation" class="enabled"><a href="portfolio.html">Portfolio</a></li>
+	      			<li role="presentation" class="enabled"><a href="contact.html">Contact</a></li>
+	    		</ul>
+      	</div>
+      </div>
+    </nav>
 
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	        <li><a href="index.html">About</a></li>
-	        <li><a href="portfolio.html">Portfolio</a></li>
-	        <li><a href="contact.html">Contact</a></li>
-	       </ul>
-   		</div>
-	</nav>
+<!--Main container-->
+    <div class="container main-container">
+<!--Row 1-->
+    	<div class="row">
+    		<div class="col-md-12">
+    			<h1>
+    				About Me
+    			</h1>
+    		</div>
+      </div>
 
+<!--Row 2-->
+      <div class="row">
+      <!--main-left-->
+    		<div class="col-md-2">
+    			<img src="assets/images/ProfilePicture.JPG" width="150px" height="150px">
+        </div>
+        <div class="col-md-5">
+  				<p>
+  				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+  				</p>
+    		</div>
+      <!--main-left-->
+
+        <div class="panel panel-default col-md-3 col-md-offset-1">
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect with Me</h3>
+          </div>
+          
+      <!--main-right-->
+          <!--Row 2 sub-row-->
+          <div class="row">
+            <div class="panel-body">
+              <ul class="list-unstyled list-inline">
+                <li class="col-md-3 col-md-offset-1"><a href="https://www.linkedin.com/in/carlos-perez-b091454/" alt="linkedin link" target="_blank"><img src="assets/images/LinkedInLogo.png" height="50px" width="50px"></a></li>
+                <li class="col-md-3"><a href="https://github.com/crazyceelo" alt="Github link" target="_blank"><img src="assets/images/GitHubLogo.png" height="50px" width="50px"></a></li>
+                <li class="col-md-3"><a href="http://stackoverflow.com/users/7455526/carlos-perez" alt="stack overflow link" target="_blank"><img src="assets/images/StackOverflowLogo.png" height="50px" width="50px"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
